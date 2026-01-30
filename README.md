@@ -13,7 +13,7 @@ This system is designed as a modular embedded sensing platform that separates re
 
 The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the y-z plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
 
-| <img src="media/demo.gif" width="600"> |
+| <img src="media/demo.gif" height="600"> |
 |:--:|
 
 ---
@@ -39,11 +39,12 @@ The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping 
 
 ## 📊 Results
 
-The system successfully reconstructs the geometric layout of indoor environments, including walls, floors, and ceilings. Scans taken in hallways and enclosed spaces demonstrate clear spatial structure with consistent depth profiles across successive slices.
-
-Measurement accuracy is limited by sensor quantization and floating-point precision, resulting in a maximum theoretical error of approximately 0.5 mm. Reflective surfaces such as glass introduce artifacts due to infrared interference, leading to localized distortions in reconstructed meshes.
-
-Overall scan performance is primarily constrained by stepper motor rotation speed and the ToF sensor’s sampling rate. Despite these limitations, the system demonstrates a robust proof-of-concept for low-cost embedded 3D spatial mapping.
+- Reconstructed indoor environments with 360° scans across 64 angular slices  
+- Achieved ≤ 0.5 mm distance resolution  
+- Maintained consistent depth profiles across successive scan steps  
+- Scan throughput limited by stepper motor speed and ~50 Hz ToF sampling rate  
+- Validated a low-cost, embedded 3D mapping proof-of-concept
+- Measurement resolution is limited to 1 mm by sensor quantization, resulting in a maximum error of ±0.5 mm
 
 <img src="media/results.png" width="100%">
 
