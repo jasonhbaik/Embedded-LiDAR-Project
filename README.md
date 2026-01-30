@@ -11,9 +11,11 @@ An embedded spatial measurement system featuring $360^{\circ}$ room mapping capa
 
 This system is designed as a modular embedded sensing platform that separates real-time data acquisition from computationally intensive processing. An MSP432E401Y microcontroller manages sensor control, motor actuation, and serial communication, while MATLAB is used for coordinate transformation and visualization.
 
-The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the $y$–$z$ plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
+The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the y-z plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
 
-<img src="media/demo.gif" height="60%">
+<p align="center">
+  <img src="assets/videos/demo.gif" height="600">
+</p>
 
 ---
 
