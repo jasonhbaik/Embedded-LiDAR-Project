@@ -1,4 +1,8 @@
-# 3D Spatial Mapping System (2DX3)
+
+<img src="images/IMG_7257.mp4" width="600">
+
+
+# 3D Spatial Mapping System 
 
 An embedded spatial measurement system featuring $360^{\circ}$ room mapping capabilities. The system coordinates a Time-of-Flight (ToF) distance sensor and a stepper motor using an MSP432E401Y microcontroller, with 3D visualization and post-processing performed in MATLAB.
 
