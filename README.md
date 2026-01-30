@@ -13,7 +13,7 @@ This system is designed as a modular embedded sensing platform that separates re
 
 The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the y-z plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
 
-| <img src="assets/videos/demo.gif" width="600"> |
+| <img src="media/demo.gif" width="600"> |
 |:--:|
 
 ---
