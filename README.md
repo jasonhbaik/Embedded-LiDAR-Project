@@ -1,10 +1,9 @@
 
-<img src="media/micro.png" width="100%">
-
-
 # 3D Spatial Mapping System 
 
 An embedded spatial measurement system featuring $360^{\circ}$ room mapping capabilities. The system coordinates a Time-of-Flight (ToF) distance sensor and a stepper motor using an MSP432E401Y microcontroller, with 3D visualization and post-processing performed in MATLAB.
+
+<img src="media/micro.png" width="100%">
 
 ---
 
@@ -14,7 +13,7 @@ This system is designed as a modular embedded sensing platform that separates re
 
 The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the $y$–$z$ plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
 
-<img src="media/demo.gif" height="100%">
+<img src="media/demo.gif" height="60%">
 
 ---
 
@@ -45,7 +44,7 @@ Measurement accuracy is limited by sensor quantization and floating-point precis
 
 Overall scan performance is primarily constrained by stepper motor rotation speed and the ToF sensor’s sampling rate. Despite these limitations, the system demonstrates a robust proof-of-concept for low-cost embedded 3D spatial mapping.
 
-<img src="media/results.png" width="80%">
+<img src="media/results.png" width="100%">
 
 
 ---
