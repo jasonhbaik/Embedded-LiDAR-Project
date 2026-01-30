@@ -1,5 +1,5 @@
 
-<img src="media/micro.png" width="600">
+<img src="media/micro.png" width="100%">
 
 
 # 3D Spatial Mapping System 
@@ -14,7 +14,7 @@ This system is designed as a modular embedded sensing platform that separates re
 
 The VL53L1X ToF sensor is mounted on a stepper motor to enable angular sweeping in the $y$–$z$ plane. Linear displacement along the $x$-axis is introduced manually in fixed increments, allowing volumetric reconstruction of the surrounding environment. This architecture enables reliable data collection while keeping embedded firmware lightweight and deterministic.
 
-<img src="media/demo.gif" width="600">
+<img src="media/demo.gif" height="100%">
 
 ---
 
@@ -45,7 +45,7 @@ Measurement accuracy is limited by sensor quantization and floating-point precis
 
 Overall scan performance is primarily constrained by stepper motor rotation speed and the ToF sensor’s sampling rate. Despite these limitations, the system demonstrates a robust proof-of-concept for low-cost embedded 3D spatial mapping.
 
-<img src="media/results.png" width="600">
+<img src="media/results.png" width="80%">
 
 
 ---
